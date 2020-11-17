@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  color: #ffffff;
+  background-color: #B75656;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  height: 400px;
+  background-size: 100%;
+  background-image: url("/images/pexels-anush-gorak-1229356.jpg");
+  position: relative;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+header nav {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header nav .solid-nav {
+  width: 100%;
+  background-color: black;
+}
+
+header nav .solid-nav ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+header nav .solid-nav ul .logo a {
+  position: relative;
+  background-image: url(/images/logofitness.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-indent: 10000;
+}
+
+header nav .solid-nav ul .home {
+  background-color: #B75656;
+}
+
+header nav .solid-nav ul .home a {
+  color: #ffffff;
+  position: relative;
+  top: 25%;
+}
+
+header nav .transcenden-nav {
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+header nav .transcenden-nav ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header nav .transcenden-nav ul a {
+  color: #ffffff;
+  position: relative;
+  top: 20%;
+}
+
+header .IntroSection {
+  display: -ms-grid;
+  display: grid;
+  min-height: 40vh;
+  -ms-grid-columns: 10% (1fr)[3] 10%;
+      grid-template-columns: 10% repeat(3, 1fr) 10%;
+  -ms-grid-rows: 1f 2fr 1fr;
+      grid-template-rows: 1f 2fr 1fr;
+}
+
+header .IntroSection .IntroSectionWrapper {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  padding: 2rem;
+}
+
+header .IntroSection .IntroSectionWrapper button {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  background: none;
+  display: inline-block;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+header .IntroSection .IntroSectionWrapper button:hover {
+  color: #ffffff !important;
+  background: #B75656;
+  border-color: #B75656 !important;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+main {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
+
+main .information-section {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+main .workout-section {
+  width: 95%;
+  margin: auto;
+}
+
+main .workout-section img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+main .workout-section .images-cards {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+main .workout-section .images-cards .dark-card {
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main .workout-section .images-cards .grey-card {
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main .workout-section .images-cards .white-card {
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
